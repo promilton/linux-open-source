@@ -33,5 +33,4 @@ if __name__ == "__main__":
             print(obj.is_directory_exist(path_))
         else:
             print(f"no operations defined!...{sys.argv}")
-            print("I'm done")
             exit(1)
