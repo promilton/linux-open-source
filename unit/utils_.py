@@ -1,6 +1,5 @@
 import unittest
-from .data_ import Data
-from .utils.utils import Utils
+from core.utils.utility import Utils
 
 dir_ = "C:/Users/Milton Savarimuthu/"
 
@@ -11,7 +10,7 @@ class MyTests(unittest.TestCase):
         self.obj = Utils(4)
 
     def test_directory_exist(self):
-        self.assertTrue(self.obj.is_directory_exist(dir))
+        self.assertTrue(self.obj.is_directory_exist("C:"))
 
     # def tearDown(self) -> None:
     #     self.obj = None
