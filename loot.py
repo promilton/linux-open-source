@@ -16,14 +16,15 @@ class Colony(object):
     def __str__(self):
         return f'house{self.position} with {self.money}dollar'
 
-h1 = Colony(0, 21)
+h1 = Colony(0, 26)
 h2 = Colony(1, 7)
 h3 = Colony(2, 11)
 h4 = Colony(3, 25)
-h5 = Colony(4, 10)
-h6 = Colony(5, 100)
+# h5 = Colony(4, 10)
+# h6 = Colony(5, 100)
 
-colony = [h1, h2, h3, h4, h5, h6]
+colony = [h1, h2, h3, h4]
+# colony = [h1, h2, h3, h4, h5, h6]
 
 def find_max(colony):
     max = 0

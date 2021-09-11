@@ -3,8 +3,8 @@
 if __name__ == "__main__":
     import sys
     from pathlib import Path, PureWindowsPath
-    from utils.utility import Utils
-    from utils import get_file_class
+    from core.utils.utility import Utils
+    from core.utils import get_file_class
 
     obj = Utils(4)
     for arg in sys.argv[1:]:
