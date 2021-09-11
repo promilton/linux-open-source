@@ -10,7 +10,7 @@ class MyTests(unittest.TestCase):
         self.obj = Utils(4)
 
     def test_directory_exist(self):
-        self.assertTrue(self.obj.is_directory_exist("C:"))
+        self.assertTrue(self.obj.is_directory_exist(dir_))
 
     # def tearDown(self) -> None:
     #     self.obj = None

@@ -27,5 +27,6 @@ class Meta(type):
             if name.startswith("__"):
                 pass
             else:
-                print(name.upper())
+                # print(name.upper())
+                pass
         return type(name, bases, attrs)
